@@ -132,8 +132,8 @@ let projects = [
     category: 'web',
     description:
       'This is new version of my profile web. With some news layout, Radya Profiles contains my profile and my portfolios. This website created using ReactJs unclude React Component, Context, and Custom Hooks',
-    siteUrl: 'https://radya-profile-web.netlify.app',
-    repoUrl: 'https://github.com/radyaadi/my-profile-web',
+    siteUrl: 'https://radya-profiles.netlify.app/',
+    repoUrl: 'https://github.com/radyaadi/radya-profiles',
     imgUrl: './project-img/my-new-porto/main.png',
     tags: [
       '#react-js',
