@@ -114,7 +114,7 @@ let projects = [
     category: 'web',
     description:
       'TvMaze Movie is a Vue project that displays data from tv maze api. The focus of this project is Vue for creating web components to display a list of movies from TV Maze. The data taken is limited to the girl category',
-    siteUrl: 'https://github.com/radyaadi/jobhun-frontend-test',
+    siteUrl: 'https://radya-tvmaze.netlify.app',
     repoUrl: 'https://github.com/radyaadi/jobhun-frontend-test',
     imgUrl: './project-img/tv-maze/main.png',
     tags: [
