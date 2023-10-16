@@ -138,7 +138,7 @@ let projects = [
     category: 'machine learning',
     description:
       'Corn Leaf Classification (Corn Disease) is a machine learning based website. This website is used to classify corn leaf diseases. Unfortunately, you have to run the model locally. Please contact me to be able using this features',
-    siteUrl: 'corn-disease-classification.netlify.app',
+    siteUrl: 'https://corn-disease-classification.netlify.app/',
     repoUrl: 'https://github.com/radyaadi/corn-client',
     imgUrl: './project-img/corn-disease/main.png',
     tags: ['#react-vite', '#javascript', '#python', '#cnn', '#classification'],
