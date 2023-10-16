@@ -29,18 +29,6 @@ let projects = [
     imgUrl: './project-img/si-valorant/main.png',
     tags: ['#front-end', '#npm', '#webpack', '#jquery', '#fetch-api'],
   },
-  // {
-  //   id: '003-uuid',
-  //   name: 'GitHub Seach',
-  //   createdAt: '2022-05-18',
-  //   category: 'mobile',
-  //   description: '',
-  //   siteUrl: 'https://github.com/radyaadi/github_search',
-  //   repoUrl: 'https://github.com/radyaadi/github_search',
-  //   imgUrl:
-  //     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyY9kDDP9giXf15xDKQx9xqqVsiBVdZUe-Pw&usqp=CAU',
-  //   tags: ['#front-end', '#flutter', '#dart', '#fecth-api', '#nosql'],
-  // },
   {
     id: '004-uuid',
     name: 'Restaurant',
@@ -142,6 +130,18 @@ let projects = [
       '#mobile-approach',
       '#tailwind',
     ],
+  },
+  {
+    id: '010-uuid',
+    name: 'Corn Leaf Classification',
+    createdAt: '2023-07-23',
+    category: 'machine learning',
+    description:
+      'Corn Leaf Classification (Corn Disease) is a machine learning based website. This website is used to classify corn leaf diseases. Unfortunately, you have to run the model locally. Please contact me to be able using this features',
+    siteUrl: 'corn-disease-classification.netlify.app',
+    repoUrl: 'https://github.com/radyaadi/corn-client',
+    imgUrl: './project-img/corn-disease/main.png',
+    tags: ['#react-vite', '#javascript', '#python', '#cnn', '#classification'],
   },
 ];
 

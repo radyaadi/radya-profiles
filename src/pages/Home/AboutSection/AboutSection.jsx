@@ -17,16 +17,16 @@ const AboutSection = () => {
           <h1 className="mb-7 w-full text-[--main-color]">About Me</h1>
           <p className="mb-2 text-justify indent-10 leading-7">
             I`m an undergraduate computer science student currently studying on
-            my final year lectures (8th semester). As a student, i do spend my
-            time to develop more my skill on web development, especially on
-            frontend web development.
+            my final year lectures. As a student, i do spend my time to develop
+            more my skill on web development, especially on frontend web
+            development.
           </p>
           <p className="relative text-justify indent-10 leading-7">
             I have experience related to web development and design, like
-            creating some webs layouts using ReactJs framework, design some webs
-            using css framework like Bootstrap or Tailwind. I also studying
-            NextJs framework and some backend development using ExpressJs.
-            Please feel free to looking some{' '}
+            creating some webs layouts using ReactJs framework, design some web
+            layout using css framework like Tailwind or Bootstrap. I also
+            studying NextJs framework and some backend development using
+            ExpressJs. Please feel free to looking some{' '}
             <span
               onClick={() => {
                 onCheckHandler();

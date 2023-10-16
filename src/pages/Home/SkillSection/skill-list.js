@@ -30,6 +30,11 @@ export const SKILL_LIST = [
     icon: 'bx bxl-react',
   },
   {
+    name: 'Typescript',
+    level: 'Beginner',
+    icon: 'bx bxl-typescript',
+  },
+  {
     name: 'VueJs',
     level: 'Beginner',
     icon: 'bx bxl-vuejs',
