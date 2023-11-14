@@ -131,18 +131,18 @@ let projects = [
       '#tailwind',
     ],
   },
-  {
-    id: '010-uuid',
-    name: 'Corn Leaf Classification',
-    createdAt: '2023-07-23',
-    category: 'machine learning',
-    description:
-      'Corn Leaf Classification (Corn Disease) is a machine learning based website. This website is used to classify corn leaf diseases. Unfortunately, you have to run the model locally. Please contact me to be able using this features',
-    siteUrl: 'https://corn-disease-classification.netlify.app/',
-    repoUrl: 'https://github.com/radyaadi/corn-client',
-    imgUrl: './project-img/corn-disease/main.png',
-    tags: ['#react-vite', '#javascript', '#python', '#cnn', '#classification'],
-  },
+  // {
+  //   id: '010-uuid',
+  //   name: 'Corn Leaf Classification',
+  //   createdAt: '2023-07-23',
+  //   category: 'machine learning',
+  //   description:
+  //     'Corn Leaf Classification (Corn Disease) is a machine learning based website. This website is used to classify corn leaf diseases. Unfortunately, you have to run the model locally. Please contact me to be able using this features',
+  //   siteUrl: 'https://corn-disease-classification.netlify.app/',
+  //   repoUrl: 'https://github.com/radyaadi/corn-client',
+  //   imgUrl: './project-img/corn-disease/main.png',
+  //   tags: ['#react-vite', '#javascript', '#python', '#cnn', '#classification'],
+  // },
 ];
 
 export const getAllProject = () => {
