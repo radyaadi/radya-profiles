@@ -57,7 +57,7 @@ let projects = [
     siteUrl: 'https://github.com/radyaadi/SAI-Project',
     repoUrl: 'https://github.com/radyaadi/SAI-Project',
     imgUrl: './project-img/sai-store/main.png',
-    tags: ['#front-end', '#back-end', '#nodejs', '#mysql', '#expressjs'],
+    tags: ['#front-end', '#back-end', '#node-js', '#mysql', '#express-js'],
   },
   {
     id: '006-uuid',
@@ -115,6 +115,24 @@ let projects = [
   },
   {
     id: '009-uuid',
+    name: 'POST Client',
+    createdAt: '2023-04-23',
+    category: 'web',
+    description:
+      'POST Client is a website that I created using NextJs Framework with Javascript Programming Language. This web contains content about the sale and purchase transactions at a store',
+    siteUrl: 'https://github.com/radyaadi/post-client',
+    repoUrl: 'https://github.com/radyaadi/post-client',
+    imgUrl: './project-img/tv-maze/main.png',
+    tags: [
+      '#next-js',
+      '#react-context',
+      '#middleware',
+      '#express-js',
+      '#javascript',
+    ],
+  },
+  {
+    id: '0010-uuid',
     name: 'Radya Profiles (New)',
     createdAt: '2023-06-21',
     category: 'web',
