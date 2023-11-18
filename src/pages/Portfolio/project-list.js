@@ -116,7 +116,7 @@ let projects = [
   {
     id: '009-uuid',
     name: 'POST Client',
-    createdAt: '2023-04-23',
+    createdAt: '2023-05-17',
     category: 'web',
     description:
       'POST Client is a website that I created using NextJs Framework with Javascript Programming Language. This web contains content about the sale and purchase transactions at a store',
