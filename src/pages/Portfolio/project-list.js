@@ -116,13 +116,13 @@ let projects = [
   {
     id: '009-uuid',
     name: 'POST Client',
-    createdAt: '2023-05-23',
+    createdAt: '2023-05-18',
     category: 'web',
     description:
       'POST Client is a website that I created using NextJs Framework with Javascript Programming Language. This web contains content about the sale and purchase transactions at a store',
     siteUrl: 'https://github.com/radyaadi/post-client',
     repoUrl: 'https://github.com/radyaadi/post-client',
-    imgUrl: './project-img/tv-maze/main.png',
+    imgUrl: './project-img/post-client/main.png',
     tags: [
       '#next-js',
       '#react-context',
