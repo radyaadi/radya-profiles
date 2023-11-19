@@ -89,7 +89,11 @@ body {
   transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
-nav,
+nav {
+  padding-inline: 7rem;
+  margin-inline: auto;
+}
+
 .container {
   padding-inline: 7rem;
   max-width: 1400px;

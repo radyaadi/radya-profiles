@@ -4,18 +4,12 @@ import PropTypes from 'prop-types';
 import ThemeContext from '../../contexts/ThemeContext';
 import { NAV_LIST } from './nav-list';
 
-const Navigation = ({ initScroll }) => {
+const Navigation = () => {
   const [nav, setNav] = useState(false);
   const { theme, changeTheme } = useContext(ThemeContext);
 
   return (
-    <nav
-      className={`${
-        initScroll >= 40
-          ? 'h-[3.5rem] border-b border-[--border-color] bg-[--container-color]'
-          : 'h-[5rem]'
-      } flex items-center justify-between duration-300`}
-    >
+    <nav className="flex h-full max-w-[1400px] items-center justify-between">
       <Link
         to={`/`}
         title="logo"
@@ -52,7 +46,7 @@ const Navigation = ({ initScroll }) => {
                     <div
                       className={`${
                         isActive ? 'nav__active' : ''
-                      } underline__hover relative duration-300 ease-in-out hover:text-[--main-color]`}
+                      } underline__hover relative ease-in-out hover:text-[--main-color]`}
                     >
                       <i
                         className={`block text-[1.1rem] min-[600px]:hidden ${nav.icon}`}
@@ -72,7 +66,9 @@ const Navigation = ({ initScroll }) => {
         onClick={() => changeTheme(theme === 'dark' ? 'light' : 'dark')}
         className="cursor-pointer text-[1.5rem] text-[--main-color]"
       >
-        <i className="bx bxs-sun"></i>
+        <i
+          className={`${theme === 'light' ? 'bx bxs-sun' : 'bx bxs-moon'}`}
+        ></i>
       </div>
     </nav>
   );

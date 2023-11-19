@@ -36,8 +36,14 @@ const App = () => {
 
   return (
     <ThemeProvider value={themeContextValue}>
-      <header className="fixed left-0 top-0 z-[100] w-full">
-        <Navigation initScroll={offset} />
+      <header
+        className={`${
+          offset >= 40
+            ? 'h-[3.5rem] border-b border-[--border-color] bg-[--container-color]'
+            : 'h-[5rem]'
+        } fixed left-0 top-0 z-[100] w-full duration-300`}
+      >
+        <Navigation />
       </header>
       <main>
         <Routes>
