@@ -38,14 +38,11 @@ const SkillList = ({ skillList }) => {
       {skillList.map((skill, index) => {
         return (
           <SwiperSlide
-            className="inline-flex h-min items-center rounded-xl bg-[--container-color] px-5 py-6"
+            className="inline-flex h-min w-full items-center justify-center gap-x-2 rounded-xl bg-[--container-color] px-5 py-6"
             key={index}
           >
             <i className={`${skill.icon} text-[2.5rem]`}></i>
-            <div className="ml-2">
-              <h3>{skill.name}</h3>
-              <p className="text-xs text-[--secondary-color]">{skill.level}</p>
-            </div>
+            <h3>{skill.name}</h3>
           </SwiperSlide>
         );
       })}

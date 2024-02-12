@@ -23,9 +23,6 @@ const ExperienceList = ({ experiences }) => {
                 <div className="leading-2 relative bottom-0.5 mx-1 inline-block h-1 w-1 rounded-full bg-[--default-color]"></div>{' '}
                 {experience.duration}
               </div>
-              <p className="py-3 text-[.9rem] min-[350px]:text-justify">
-                {experience.jobDescription}
-              </p>
             </div>
           </div>
         );

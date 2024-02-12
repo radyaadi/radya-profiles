@@ -1,47 +1,38 @@
 export const SKILL_LIST = [
   {
-    name: 'ReactJs',
-    level: 'Intermediate',
+    name: 'NextJs',
     icon: 'bx bxl-react',
   },
   {
-    name: 'Javascript',
-    level: 'Intermediate',
-    icon: 'bx bxl-javascript',
-  },
-  {
-    name: 'NodeJs',
-    level: 'Intermediate',
-    icon: 'bx bxl-nodejs',
-  },
-  {
-    name: 'Tailwind',
-    level: 'Intermediate',
-    icon: 'bx bxl-tailwind-css',
-  },
-  {
-    name: 'Bootstrap',
-    level: 'Intermediate',
-    icon: 'bx bxl-bootstrap',
-  },
-  {
-    name: 'NextJs',
-    level: 'Beginner',
+    name: 'ReactJs',
     icon: 'bx bxl-react',
   },
   {
     name: 'Typescript',
-    level: 'Beginner',
     icon: 'bx bxl-typescript',
   },
   {
-    name: 'ExpressJs',
-    level: 'Beginner',
-    icon: 'bx bxl-nodejs',
+    name: 'Javascript',
+    icon: 'bx bxl-javascript',
   },
   {
     name: 'Python',
-    level: 'Beginner',
     icon: 'bx bxl-python',
+  },
+  {
+    name: 'Tailwind',
+    icon: 'bx bxl-tailwind-css',
+  },
+  {
+    name: 'ExpressJs',
+    icon: 'bx bxl-nodejs',
+  },
+  {
+    name: 'NodeJs',
+    icon: 'bx bxl-nodejs',
+  },
+  {
+    name: 'Bootstrap',
+    icon: 'bx bxl-bootstrap',
   },
 ];

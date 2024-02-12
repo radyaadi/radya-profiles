@@ -28,12 +28,12 @@ const HomeSection = () => {
                 </h2>
                 <h1 className="pt-1">Radya Adi Anggara</h1>
                 <h4 className="py-3 text-[1rem] text-[--default-color]">
-                  Junior Front-End Web Developer
+                  Front-End Web Developer
                 </h4>
               </div>
               <div className="mx-auto max-w-[30rem] pt-1 text-justify text-sm text-[--secondary-color] min-[350px]:max-w-[40rem]">
-                Undergraduate computer science student with knowledge about web
-                development, especially in front-end web development
+                Fresh Graduate Informatic Student with experience in front-end
+                web development, specializing in ReactJs and NextJs Framework.
               </div>
             </div>
             <div className="my-9">
