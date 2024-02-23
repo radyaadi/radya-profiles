@@ -30,7 +30,7 @@ let projects = [
     tags: ['#front-end', '#npm', '#webpack', '#jquery', '#fetch-api'],
   },
   {
-    id: '004-uuid',
+    id: '003-uuid',
     name: 'Restaurant',
     createdAt: '2022-11-13',
     category: 'web',
@@ -48,7 +48,7 @@ let projects = [
     ],
   },
   {
-    id: '005-uuid',
+    id: '004-uuid',
     name: 'Sai Store',
     createdAt: '2022-12-13',
     category: 'web',
@@ -60,7 +60,7 @@ let projects = [
     tags: ['#front-end', '#back-end', '#node-js', '#mysql', '#express-js'],
   },
   {
-    id: '006-uuid',
+    id: '005-uuid',
     name: 'Note Apps',
     createdAt: '2023-02-16',
     category: 'web',
@@ -78,7 +78,7 @@ let projects = [
     ],
   },
   {
-    id: '007-uuid',
+    id: '006-uuid',
     name: 'Radya Profiles (Old)',
     createdAt: '2023-03-08',
     category: 'web',
@@ -96,7 +96,7 @@ let projects = [
     ],
   },
   {
-    id: '008-uuid',
+    id: '007-uuid',
     name: 'TvMaze Movie',
     createdAt: '2023-04-23',
     category: 'web',
@@ -114,7 +114,7 @@ let projects = [
     ],
   },
   {
-    id: '009-uuid',
+    id: '008-uuid',
     name: 'POST Client',
     createdAt: '2023-05-18',
     category: 'web',
@@ -132,7 +132,7 @@ let projects = [
     ],
   },
   {
-    id: '0010-uuid',
+    id: '009-uuid',
     name: 'Radya Profiles (New)',
     createdAt: '2023-06-21',
     category: 'web',
@@ -150,7 +150,7 @@ let projects = [
     ],
   },
   {
-    id: '0011-uuid',
+    id: '010-uuid',
     name: 'Radya Blog App',
     createdAt: '2023-11-26',
     category: 'web',
@@ -160,6 +160,18 @@ let projects = [
     repoUrl: 'https://github.com/radyaadi/blog-app-dummy',
     imgUrl: './project-img/radya-blog-app/main.png',
     tags: ['#next-js', '#app-route', '#fetch-api', '#single-page', '#tailwind'],
+  },
+  {
+    id: '011-uuid',
+    name: 'Radya Blog App',
+    createdAt: '2024-02-04',
+    category: 'web',
+    description:
+      'This is a web that shows a collection of blogs by some users. This web is made using XXX. There are two main features on this XX, namely the blog page fund user page',
+    siteUrl: 'https://chipitalks.vercel.app/sign-in',
+    repoUrl: 'https://github.com/radyaadi/chipitalks',
+    imgUrl: './project-img/chipitalks/main.png',
+    tags: ['#next-js', '#mongo-db', '#clerk', '#typescript', '#tailwind'],
   },
 ];
 
