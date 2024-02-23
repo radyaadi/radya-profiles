@@ -163,7 +163,7 @@ let projects = [
   },
   {
     id: '011-uuid',
-    name: 'Radya Blog App',
+    name: 'ChipiTalks',
     createdAt: '2024-02-04',
     category: 'web',
     description:
