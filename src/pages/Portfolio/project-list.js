@@ -167,7 +167,7 @@ let projects = [
     createdAt: '2024-02-04',
     category: 'web',
     description:
-      'This is a web that shows a collection of blogs by some users. This web is made using XXX. There are two main features on this XX, namely the blog page fund user page',
+      'Experience the next evolution of social media with my cutting-edge application, inspired by the essence of Twitter and Threads yet offering a fresh perspective on microblogging. Designed for modern users seeking authenticity and meaningful connections.',
     siteUrl: 'https://chipitalks.vercel.app/sign-in',
     repoUrl: 'https://github.com/radyaadi/chipitalks',
     imgUrl: './project-img/chipitalks/main.png',
