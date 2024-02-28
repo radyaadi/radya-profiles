@@ -4,7 +4,7 @@ export const EXPERIENCE_LIST = [
     company: 'Dicoding Indonesia',
     type: 'Training',
     startYear: 2023,
-    duration: '9 Months',
+    duration: '5 Months',
   },
   {
     name: 'Front-End & Back-End Web Developer',
